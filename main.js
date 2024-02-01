@@ -1,20 +1,3 @@
-// let a = 1234;
-// let b;
-// let n;
-// for ( n = 1; a % 10 ** n > 0; n++) {
-//   while (a % 10 ** n > 0) {
-//     b = (a % 10 ** n) / 10;
-//     console.log(b);
-//   }
-// }
-// let n = +prompt(`natural son kiriting`);
-// let Number1 = 0;
-// while (n > 0) {
-//   let raqam = n % 10;
-//   Number1 = Number1 * 10 + raqam;
-//   n = Math.floor(n / 10);
-// }
-// console.log("Teskari tartibda", Number1);
 // let n=5;
 // let son;
 // while
@@ -174,8 +157,49 @@
 // WHILE ------///////////
 
 // // while1
-// let a = 4;
-// let b = 2;
-// while (i=b;i<=a;i++) {
+// let a = +prompt(`A kesma uzunligi kiriting`);
+// let b = +prompt(`A dan kichik B kesma uzunligini kiriting`);
+// while (a >= b) {
+//   a -= b;
 // }
-// console.log(a, b);
+// console.log(a);
+
+// // while2
+// let a = +prompt(`A kesma uzunligi kiriting`);
+// let b = +prompt(`A dan kichik B kesma uzunligini kiriting`);
+// let i = 0;
+// while (a >= b) {
+//   a -= b;
+//   i = i + 1;
+// }
+// console.log(i);
+
+// // while3
+// let n = +prompt(`n sonini kiritig`);
+// let son = 1;
+// while (son < n) {
+//   son = son * 3;
+// }
+// if (son == n) {
+//   console.log(`3 ni darajasi`);
+// } else {
+//   console.log(`3 ni darajasi emas`);
+// }
+
+// // while4
+// let n = +prompt(`n sonini kiriting`);
+// let m = +prompt(`n dan kichik m sonini kiriting`);
+// while (n >= m) {
+//   n -= m;
+// }
+// console.log(`n sonini m ga bo'lingandagi qoldiq: ${n}`);
+
+// // while5
+// let n = +prompt(`natural son kiriting`);
+// let son = 0;
+// while (n > 0) {
+//   let number = n % 10;
+//   son = son * 10 + number;
+//   n = Math.floor(n / 10);
+// }
+// console.log(`kiritilgan sonning raqamlari teskasi tartibda yozilgani:`, son);
